@@ -59,7 +59,7 @@ const navBar =()=>{
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">ACTION</a>
-              <a class="dropdown-item" href="#">PROCESS</a>
+              <a class="dropdown-item" href="#">ACTION PROCESS</a>
             </div>
           </li>
           <li class="nav-item dropdown">
