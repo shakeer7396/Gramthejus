@@ -1,0 +1,29 @@
+ /* Custom CSS to make dropdowns open on hover */
+ #nav{
+    margin-bottom: 75px;
+ }
+ .navbar{
+      position:fixed;
+      /* margin-bottom: 200px; */
+      width: 100%;
+    }
+ .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  div > a:hover {
+    color:rgb(67,186,255) !important;
+  }
+  ul,li{
+    list-style-type: none;
+    
+  }
+  #map{
+    border:2px solid green;
+    height:200px;
+  }
+
+  .nav-link:hover{
+    color:black !important;
+
+  }
+ 
