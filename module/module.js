@@ -1,7 +1,7 @@
 const navBar =()=>{
     return`<div>
     <nav class="navbar navbar-expand-md navbar-dark bg-success sticky-top" margin-bottom="100">
-    <a class="navbar-brand" href="#"><img src="Gt_L.png" alt="Logo" width="150" height="100"></a>
+    <a class="navbar-brand" href="../index.html"><img src="Gt_L.png" alt="Logo" width="150" height="100"></a>
     <button class="navbar-toggler" type="button" text-warning data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,7 +13,7 @@ const navBar =()=>{
             GramThejus Services
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Pages/Fp.html">GT-TECHNOLOGIES</a>
+            <a class="dropdown-item" href="Pages/Gt-Technologies.html">GT-TECHNOLOGIES</a>
             <a class="dropdown-item" href="#">PROJECT DESIGN</a>
             <a class="dropdown-item" href="#">WORKFORCE CONSULTANCY</a>
             <a class="dropdown-item" href="#">RECRUITMENT SERVICES</a>

@@ -26,4 +26,14 @@
     color:black !important;
 
   }
+  .container-3{
+    background-color: rgb(34,31,60);
+    color: white;
+    padding: 60px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  p{
+      font-family:'Times New Roman', serif;
+    }
  
