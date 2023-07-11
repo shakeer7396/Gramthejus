@@ -1,7 +1,7 @@
 const navBar =()=>{
     return`<div>
     <nav class="navbar navbar-expand-md navbar-dark bg-success sticky-top" margin-bottom="100">
-    <a class="navbar-brand" href="#"><img src="My project.png" alt="Logo" width="150" height="100"></a>
+    <a class="navbar-brand" href="#"><img src="Gt_L.png" alt="Logo" width="150" height="100"></a>
     <button class="navbar-toggler" type="button" text-warning data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
