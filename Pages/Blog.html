@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="../styles/index.css">
     <style>
       .box {
         border: 1px solid #ccc;
@@ -23,6 +24,77 @@
     </style>
   </head>
   <body>
+    <div style="margin-bottom: 200px;">
+      <nav class="navbar navbar-expand-md navbar-dark bg-success sticky-top" margin-bottom="100">
+      <a class="navbar-brand" href="../index.html"><img src="../Gt_L.png" alt="Logo" width="150" height="100"></a>
+      <button class="navbar-toggler" type="button" text-warning data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto  justify-content-center">
+                 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" text-warning data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              GramThejus Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="ProductDesign.html">PRODUCT DESIGN</a>
+              <a class="dropdown-item" href="WorkForce.html">WORKFORCE CONSULTING</a>
+              <a class="dropdown-item" href="Recruitment.html">RECRUITMENT SERVICES</a>
+             
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Devops
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Devc.html">DEVOPS CONSULTING</a>
+              <a class="dropdown-item" href="RealTA.html">REALTIME ANALYTICS</a>
+              <a class="dropdown-item" href="Sre.html">SRE</a>
+    
+              </div>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="OverView.html">OVERVIEW</a>
+                <a class="dropdown-item" href="#">COMMITMENT TO DIVERSITY</a>
+                <a class="dropdown-item" href="#">INSIGHTS</a>
+                <a class="dropdown-item" href="#">OUR BRANDS</a>
+                <a class="dropdown-item" href="#">EVENTS</a>
+              
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact Us
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ACTION</a>
+                <a class="dropdown-item" href="#">ACTION PROCESS</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" >
+                Employee Login
+              </a>
+              
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="Blog.html" id="navbarDropdown" role="button" >
+                Blog
+              </a>
+              
+            </li>
+            
+        </ul>
+      </div>
+    </nav>
+      </div>
     <div class="container">
     
         <div class="col-md-12">
@@ -266,8 +338,77 @@
         </div>
       </div>
     </div>
-
+    <footer class="footer">
+      <div class="container-3">
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <h4>Service Offering</h4>
+              <li>Recruitment Services</li>
+              <li>Technology Engagement Services</li>
+              <li>Payroll & IC Offerings</li>
+              <li>Product Design</li>
+              <li>Workforce Consulting Services</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <h4>About Us</h4>
+              <li>Overview</li>
+              <li>Commitment To Diversity</li>
+              <li>Insights</li>
+              <li>Our Brands</li>
+              <li>Events</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <h4>Industries</h4>
+              <li>Automotive</li>
+              <li>Life Science</li>
+              <li>Banking & Insurance</li>
+              <li>Digital Technology</li>
+              <li>Energy & Utilities</li>
+              <li>Engineering</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <img src="../diversities.png" alt="Logo" width="300" class="footer-logo">
+          </div>
+          <div class="col-md-3" id="map">
+            
+          </div>
+        
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Include the Google Maps API script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbYEztlvsqFzAayvyDHDG6cJuImvlSNio&callback=initMap" async defer></script>
+    
+    <!-- Adding the map script -->
+    <script>
+      function initMap() {
+        // Charminar location
+        var charminarLocation = { lat: 17.3616, lng: 78.4747 };
+    
+        // Create a map object and specify the DOM element to display it
+        var map = new google.maps.Map(document.getElementById("map"), {
+          center: charminarLocation,
+          zoom: 14,
+        });
+    
+        // Create a marker and set its position
+        var marker = new google.maps.Marker({
+          map: map,
+          position: charminarLocation,
+          title: "Charminar",
+        });
+      }
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
   </body>
 </html>
