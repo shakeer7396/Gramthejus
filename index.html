@@ -359,10 +359,11 @@ section {
         </div>
         <div class="col-md-3" id="map-2">         
         </div> -->
-        <div class="col-md-3" id="map-1">         
-        </div>
         <div class="col-md-3" id="map-2">         
         </div>
+        <div class="col-md-3" id="map-1">         
+        </div>
+       
       </div>
     </div>
   </footer>
@@ -375,22 +376,6 @@ section {
   
   <script>
     function initMap() {
-      // Indicube building location
-      var indicubeLocation = { lat: 12.845614, lng: 77.666933 };
-  
-      // Create a map object and specify the DOM element to display it
-      var map2 = new google.maps.Map(document.getElementById("map-2"), {
-        center: indicubeLocation,
-        zoom: 14,
-      });
-  
-      // Create a marker and set its position
-      var marker2 = new google.maps.Marker({
-        map: map2,
-        position: indicubeLocation,
-        title: "Indicube Building",
-      });
-
       // GT Technologies Inc location
       var gtTechnologiesLocation = { lat: 35.1415, lng: -80.8802 };
   
@@ -405,6 +390,24 @@ section {
         map: map1,
         position: gtTechnologiesLocation,
         title: "GT Technologies Inc",
+      });
+    
+  
+   
+      // Indicube building location
+      var indicubeLocation = { lat: 12.845614, lng: 77.666933 };
+  
+      // Create a map object and specify the DOM element to display it
+      var map2 = new google.maps.Map(document.getElementById("map-2"), {
+        center: indicubeLocation,
+        zoom: 14,
+      });
+  
+      // Create a marker and set its position
+      var marker2 = new google.maps.Marker({
+        map: map2,
+        position: indicubeLocation,
+        title: "Indicube Building",
       });
     }
   </script>
