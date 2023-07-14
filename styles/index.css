@@ -17,10 +17,19 @@
     list-style-type: none;
     
   }
-  #map{
+  #map-1,#map-2{
+    border:2px solid green;
+    height:200px;
+    margin:30px;
+  }
+  /* #map{
     border:2px solid green;
     height:200px;
   }
+  #map-1{
+    border:2px solid green;
+    height:200px;
+  } */
 
   .nav-link:hover{
     color:black !important;
