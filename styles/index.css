@@ -97,6 +97,9 @@
     height: 300px;
     padding-left: -100px;
    }
+   a{
+    font-weight: 800;
+   }
  }
  .navbar-toggler{
   background-color: black;
