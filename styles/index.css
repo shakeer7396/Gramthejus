@@ -1,8 +1,9 @@
  /* Custom CSS to make dropdowns open on hover */
  .navbar{
       position:fixed;
-      /* margin-bottom: 200px; */
       width: 100%;
+      background-color: whitesmoke;
+      padding: -200px;
     }
  .dropdown:hover .dropdown-menu {
     display: block;
@@ -46,10 +47,57 @@
     }
  a{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   text-decoration:none;
+  font-weight: 600;
  }
  .brand{
   background-image: url('../BgGt.jpg');
   background-repeat: no-repeat;
+ }
+
+ /* .ul>li>a{
+  font-size: 25px;
+  font-weight: 1000px;
+ } */
+ .dropdown-item{
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+
+
+ }
+ .nav-link{
+  color:green;
+ }
+ .dropdown-menu{
+  background-color: green;
+ }
+ .navbar-brand>img{
+  width:380px ;
+  height: 400px;
+  padding-left: -100px;
+ }
+ @media (min-width:768px){
+  .navbar{
+    height:150px;
+
+  }
+  .nav-p{
+    margin-bottom: 150px;
+
+  }
+ }
+ @media all and (max-width:767px){
+  .nav-p{
+    margin-bottom: 450px;
+  }
+ }
+ .navbar-toggler{
+  background-color: black;
+
+ }
+ .navbar-toggler-icon{
+  font-size: 20px;
+  background-color:chartreuse;
  }
