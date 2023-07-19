@@ -90,11 +90,11 @@
  }
  @media all and (max-width:767px){
   .nav-p{
-    margin-bottom: 450px;
+    margin-bottom: 330px;
   }
   .navbar-brand>img{
-    width:350px ;
-    height: 400px;
+    width:250px ;
+    height: 300px;
     padding-left: -100px;
    }
  }
