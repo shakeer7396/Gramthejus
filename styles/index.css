@@ -73,16 +73,16 @@
  .dropdown-menu{
   background-color: green;
  }
- .navbar-brand>img{
-  width:300px ;
-  height: 300px;
-  padding-left: -100px;
- }
+ 
  @media (min-width:768px){
   .navbar{
     height:150px;
-
   }
+  .navbar-brand>img{
+    width:400px ;
+    height: 400px;
+    padding-left: -100px;
+   }
   .nav-p{
     margin-bottom: 150px;
 
@@ -92,6 +92,11 @@
   .nav-p{
     margin-bottom: 450px;
   }
+  .navbar-brand>img{
+    width:350px ;
+    height: 400px;
+    padding-left: -100px;
+   }
  }
  .navbar-toggler{
   background-color: black;
