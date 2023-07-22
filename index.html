@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Add Bootstrap CSS link here -->
+    <script
+      src="https://kit.fontawesome.com/28b8411688.js"
+      crossorigin="anonymous"
+    ></script>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/index.css">
@@ -74,7 +78,12 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mx-auto  justify-content-center">
-             
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="../index.html" id="navbarDropdown" role="button" >
+          Home
+        </a>
+        
+      </li>      
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" text-success data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Gramthejus Services
@@ -285,13 +294,57 @@
         <img
           src="../diversities.png"
           alt="Logo"
-          width="300"
+          width="100%"
           class="footer-logo"
         />
+        
       </div>
-      <div class="col-md-4" id="map-2"></div>
-      <div class="col-md-4" id="map-1"></div>
+     
     </div>
+    <div class="row">
+      <div class="col-md-2">
+        <a href="https://www.linkedin.com/company/gt-technologies-inc/" target="_blank"><i
+          class="fa fa-linkedin"
+          style="font-size: 60px;"></i></a>
+      <h2><b>LinkedIn</b></h2>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><i
+          class="fa fa-instagram"
+          style="font-size: 60px;"></i></a>
+      <h2><b>Instagram</b></h2>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><i
+          class="fa fa-facebook"
+          style="font-size: 60px;"></i></a>
+      <h2><b>Facebook</b></h2>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><i
+          class="fa fa-twitter"
+          style="font-size: 60px;"></i></a>
+      <h2><b>Twitter</b></h2>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><i
+          class="fa fa-envelope"
+          style="font-size: 60px;"></i></a>
+      <h2><b>Email</b></h2>
+      </div>
+      
+    </div>
+    <br><br><br>
+    <div class="row">
+       <div class="col-md-4" id="map-2"><h4>Company Location</h4><p>Indicube Building, AMR Tech Park, Electronic City Phase-1, Bengaluru, India</p></div>
+    <div class="col-md-4" id="map-1"><h4>Company Location</h4><p>Old Pineville Rd, Chariotte, North Carolina, USA</p></div>
+    <div class="col-md-4" id="map-3"><h4>Company Location</h4><p>Pune, India</p></div>
+
+  </div>
+  <br><br><br>
+  <div>
+   <p>Copyright © 2023 Gramthejus Technologies. All Rights Reserved. <a href="http://www.gramthejustech.com" target="_blank" class="company-website">http://www.gramthejustech.com</a> </p> 
+  </div>
   </div>
 </footer>
 
@@ -303,7 +356,7 @@
   defer
 ></script>
 
-<script>
+<!-- <script>
   function initMap() {
     // GT Technologies Inc location
     var gtTechnologiesLocation = { lat: 35.1415, lng: -80.8802 };
@@ -337,7 +390,7 @@
       title: "Indicube Building",
     });
   }
-</script>
+</script> -->
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>

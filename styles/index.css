@@ -13,13 +13,14 @@
   }
   ul,li{
     list-style-type: none;
+    font-size: 19px;
     
   }
-  #map-1,#map-2{
+  /* #map-1,#map-2{
     border:2px solid green;
     height:200px;
     margin:30px;
-  }
+  } */
 
   .nav-link:hover{
     color:black !important;
@@ -35,7 +36,7 @@
   p{
       font-family:Arial, Helvetica, sans-serif;
       /* font-family: 'Times New Roman', Times, serif; */
-      font-size: 18px;
+      font-size: 20px;
     }
  a{
   font-family: Arial, Helvetica, sans-serif;
@@ -103,5 +104,5 @@
  }
 
  .image-size{
-  margin-top: 40px;
+  margin-top: 12px;
  }
