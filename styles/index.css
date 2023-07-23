@@ -90,12 +90,13 @@ a {
     font-weight: 700;
   }
 }
-.navbar-toggler {
+/* .navbar-toggler {
   background-color: black;
-}
+} */
 .navbar-toggler-icon {
   font-size: 20px;
-  background-color: chartreuse;
+  /* color:forestgreen; */
+  /* background-color: chartreuse; */
 }
 
 .image-size {
