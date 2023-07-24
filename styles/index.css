@@ -62,15 +62,13 @@ a {
 .nav-item .dropdown-menu {
   background-color: green;
 }
-
-@media (min-width: 768px){
+@media all and (min-width: 768px){
   .navbar {
     height: 150px;
   }
   .navbar-brand > img {
     width: 400px;
     height: 400px;
-    padding-left: -100px;
   }
   
 }
@@ -78,7 +76,6 @@ a {
   .navbar-brand > img {
     width: 250px;
     height: 300px;
-    padding-left: -100px;
   }
   a {
     font-weight: 700;
@@ -101,4 +98,50 @@ a {
 }
 .wfimg {
   margin-top: 110px;
+}
+/* Add this custom CSS to fix the navbar on medium-sized screens */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-brand > img {
+    width: 250px;
+    height: 300px;
+    margin: 10px 0;
+  }
+
+  .navbar-collapse {
+    background-color: #fff; /* Change the background color to match your preference */
+  }
+
+  .navbar-toggler {
+    margin: 10px 0;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 10px 15px;
+  }
+
+  .dropdown-menu {
+    margin-top: 10px;
+  }
+
+  .dropdown-item {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+  }
+
+  .dropdown-menu.show {
+    position: static;
+    float: none;
+  }
 }
