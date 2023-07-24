@@ -64,7 +64,7 @@ a {
 }
 @media all and (min-width: 768px){
   .navbar {
-    height: 150px;
+    height: 120px;
   }
   .navbar-brand > img {
     width: 400px;
@@ -73,9 +73,20 @@ a {
   
 }
 @media all and (max-width: 767px) {
+  .navbar {
+    min-height: 50px; /* Adjust the height as per your preference */
+  }
   .navbar-brand > img {
     width: 250px;
-    height: 300px;
+    min-height: 300px;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    padding: 0; 
+    background-color: #fff;
   }
   a {
     font-weight: 700;
@@ -114,7 +125,7 @@ a {
   }
 
   .navbar-collapse {
-    background-color: #fff; /* Change the background color to match your preference */
+    background-color: #fff;
   }
 
   .navbar-toggler {
@@ -124,6 +135,7 @@ a {
   .navbar-nav {
     width: 100%;
     justify-content: center;
+    align-items: center;
   }
 
   .nav-item {
@@ -145,3 +157,4 @@ a {
     float: none;
   }
 }
+
