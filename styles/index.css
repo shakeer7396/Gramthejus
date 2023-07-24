@@ -2,8 +2,7 @@
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: whitesmoke;
-  padding: -200px;
+  /* background-color: whitesmoke; */
 }
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -60,7 +59,7 @@ a {
 .nav-link {
   color: green;
 }
-.dropdown-menu {
+.nav-item .dropdown-menu {
   background-color: green;
 }
 
@@ -73,14 +72,9 @@ a {
     height: 400px;
     padding-left: -100px;
   }
-  .nav-p {
-    margin-bottom: 150px;
-  }
+  
 }
 @media all and (max-width: 767px) {
-  .nav-p {
-    margin-bottom: 330px;
-  }
   .navbar-brand > img {
     width: 250px;
     height: 300px;
