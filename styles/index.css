@@ -80,9 +80,6 @@ a {
     width: 250px;
     min-height: 300px;
   }
-  .navbar-nav {
-    align-items: center;
-  }
 
   .navbar-collapse {
     padding: 0; 
@@ -135,7 +132,6 @@ a {
   .navbar-nav {
     width: 100%;
     justify-content: center;
-    align-items: center;
   }
 
   .nav-item {
