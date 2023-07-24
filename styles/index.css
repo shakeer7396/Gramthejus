@@ -63,7 +63,7 @@ a {
   background-color: green;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
   .navbar {
     height: 150px;
   }
@@ -89,8 +89,8 @@ a {
 } */
 .navbar-toggler-icon {
   font-size: 20px;
-  /* color:forestgreen; */
-  /* background-color: chartreuse; */
+  /* color:forestgreen !important; */
+  background-color: chartreuse !important;
 }
 
 .image-size {
